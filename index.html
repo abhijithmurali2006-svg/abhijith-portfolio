@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#020617">
+  <meta name="description" content="I'm Abhijith, a developer based in India studying Computer Science at JCET, Palakkad. I learn by building things and seeing what sticks.">
+  <title>Abhijith Murali | Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca'
+            }
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-terminal antialiased selection:bg-emerald-500 selection:text-slate-950">
+  <nav id="navbar" class="fixed inset-x-0 top-0 z-40 border-b border-slate-800/80 bg-slate-950/80 backdrop-blur-md">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+      <div class="flex h-16 items-center justify-between">
+        <a href="#hero" class="bg-gradient-to-r from-indigo-400 to-violet-400 bg-clip-text text-xl font-bold text-transparent">Abhijith Murali</a>
+        <div class="hidden space-x-8 md:flex">
+          <a href="#about" class="nav-link font-medium text-slate-300 transition-colors hover:text-indigo-400">About</a>
+          <a href="#skills" class="nav-link font-medium text-slate-300 transition-colors hover:text-indigo-400">Skills</a>
+          <a href="#education" class="nav-link font-medium text-slate-300 transition-colors hover:text-indigo-400">Education</a>
+          <a href="#projects" class="nav-link font-medium text-slate-300 transition-colors hover:text-indigo-400">Projects</a>
+          <a href="#contact" class="nav-link font-medium text-slate-300 transition-colors hover:text-indigo-400">Contact</a>
+        </div>
+        <button id="mobile-menu-btn" type="button" class="text-slate-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-indigo-400 md:hidden" aria-label="Open navigation menu" aria-controls="mobile-menu" aria-expanded="false">
+          <i class="fa-solid fa-bars text-xl" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden space-y-2 border-b border-slate-800 bg-slate-900 px-4 pb-4 pt-2 md:hidden">
+      <a href="#about" class="block py-1 font-medium text-slate-300 hover:text-indigo-400">About</a>
+      <a href="#skills" class="block py-1 font-medium text-slate-300 hover:text-indigo-400">Skills</a>
+      <a href="#education" class="block py-1 font-medium text-slate-300 hover:text-indigo-400">Education</a>
+      <a href="#projects" class="block py-1 font-medium text-slate-300 hover:text-indigo-400">Projects</a>
+      <a href="#contact" class="block py-1 font-medium text-slate-300 hover:text-indigo-400">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="hero" class="font-terminal relative flex min-h-screen items-center overflow-hidden pb-12 pt-24">
+      <div class="pointer-events-none absolute -right-40 -top-40 h-96 w-96 rounded-full bg-indigo-600/20 blur-3xl"></div>
+      <div class="pointer-events-none absolute -bottom-40 -left-40 h-96 w-96 rounded-full bg-violet-600/20 blur-3xl"></div>
+      <div class="z-10 mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl">
+          <span class="font-pixel mb-6 inline-block border-2 border-emerald-500 bg-slate-900 px-3 py-2 text-[9px] uppercase tracking-widest text-emerald-400 shadow-[3px_3px_0px_0px_rgba(16,185,129,1)]"> &gt; SYSTEM_ONLINE // JCET_2029</span>
+          <h1 class="font-pixel mb-6 text-xl leading-[1.9] tracking-wide text-white sm:text-3xl">
+            ABHIJITH<span class="text-emerald-400">_</span>MURALI
+          </h1>
+          <p class="mb-8 text-2xl leading-relaxed text-slate-300 sm:text-3xl">20-something developer based in India. Studying Computer Science at JCET, Palakkad, and figuring out my path in tech by building stuff and seeing what sticks.</p>
+          <div class="font-pixel flex flex-wrap gap-5 text-[9px]">
+            <a href="#projects" class="pixel-btn border-2 border-emerald-400 bg-emerald-500 px-5 py-4 font-bold uppercase text-slate-950">[ View Projects ]</a>
+            <a href="#contact" class="pixel-btn border-2 border-emerald-500 bg-slate-900 px-5 py-4 font-bold uppercase text-emerald-400">[ Contact Me ]</a>
+          </div>
+          <div class="mt-10 flex items-center space-x-6 text-slate-400">
+            <a href="https://github.com/abhijithmurali2006-svg" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="text-2xl transition-colors hover:text-indigo-400"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+            <a href="https://linkedin.com/in/abhijith-murali-44a24238a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="text-2xl transition-colors hover:text-indigo-400"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+            <a href="mailto:Abhijith.murali.2k6@gmail.com" aria-label="Email" class="text-2xl transition-colors hover:text-indigo-400"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="border-t border-slate-800/50 bg-slate-900/30 py-20">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <h2 class="section-title mb-12 flex items-center gap-3 text-3xl font-bold"><i class="fa-solid fa-user-gear text-2xl text-indigo-400" aria-hidden="true"></i>About Me</h2>
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+          <div class="space-y-4 leading-relaxed text-slate-300 md:col-span-2">
+            <p>I'm a 20-something developer based in India, studying Computer Science at Jawaharlal College of Engineering and Technology (JCET), Palakkad. I'm still figuring out where I want to go in tech, and I learn best by building things and seeing what sticks.</p>
+            <p>My tech stack includes Python, C, HTML, CSS, JavaScript, and MySQL. I use Git and GitHub to manage my projects, and I'm fairly decent at data structures and algorithms.</p>
+          </div>
+          <aside class="space-y-4 rounded-2xl border border-slate-800 bg-slate-900 p-6">
+            <h3 class="mb-4 text-xl font-bold text-white">Quick Highlights</h3>
+            <div>
+              <span class="block text-xs uppercase tracking-wider text-slate-500">Education</span>
+              <span class="font-medium text-slate-200">B.Tech — Computer Science</span>
+              <span class="block text-sm text-slate-400">JCET, Palakkad · 2025–2029</span>
+            </div>
+            <div class="border-t border-slate-800 pt-3">
+              <span class="block text-xs uppercase tracking-wider text-slate-500">Currently</span>
+              <span class="font-medium text-slate-200">Building, learning, and figuring it out</span>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="border-t border-slate-800/50 py-20">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <h2 class="section-title mb-12 flex items-center gap-3 text-3xl font-bold"><i class="fa-solid fa-code text-2xl text-indigo-400" aria-hidden="true"></i>Technical Skills</h2>
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <article class="rounded-xl border border-slate-800 bg-slate-900/60 p-6 transition-all hover:border-indigo-500/50">
+            <div class="mb-4 text-2xl text-indigo-400"><i class="fa-solid fa-laptop-code" aria-hidden="true"></i></div>
+            <h3 class="mb-3 text-lg font-semibold text-white">Languages</h3>
+            <div class="flex flex-wrap gap-2"><span class="skill-tag">C</span><span class="skill-tag">Python</span></div>
+          </article>
+          <article class="rounded-xl border border-slate-800 bg-slate-900/60 p-6 transition-all hover:border-indigo-500/50">
+            <div class="mb-4 text-2xl text-indigo-400"><i class="fa-solid fa-chart-line" aria-hidden="true"></i></div>
+            <h3 class="mb-3 text-lg font-semibold text-white">Libraries</h3>
+            <div class="flex flex-wrap gap-2"><span class="skill-tag">NumPy</span><span class="skill-tag">Pandas</span><span class="skill-tag">Matplotlib</span><span class="skill-tag">mysql-connector</span></div>
+          </article>
+          <article class="rounded-xl border border-slate-800 bg-slate-900/60 p-6 transition-all hover:border-indigo-500/50">
+            <div class="mb-4 text-2xl text-indigo-400"><i class="fa-solid fa-globe" aria-hidden="true"></i></div>
+            <h3 class="mb-3 text-lg font-semibold text-white">Web</h3>
+            <div class="flex flex-wrap gap-2"><span class="skill-tag">HTML</span><span class="skill-tag">CSS</span><span class="skill-tag">JavaScript</span></div>
+          </article>
+          <article class="rounded-xl border border-slate-800 bg-slate-900/60 p-6 transition-all hover:border-indigo-500/50">
+            <div class="mb-4 text-2xl text-indigo-400"><i class="fa-solid fa-database" aria-hidden="true"></i></div>
+            <h3 class="mb-3 text-lg font-semibold text-white">Databases</h3>
+            <div class="flex flex-wrap gap-2"><span class="skill-tag">MySQL</span></div>
+          </article>
+          <article class="rounded-xl border border-slate-800 bg-slate-900/60 p-6 transition-all hover:border-indigo-500/50">
+            <div class="mb-4 text-2xl text-indigo-400"><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i></div>
+            <h3 class="mb-3 text-lg font-semibold text-white">Tools</h3>
+            <div class="flex flex-wrap gap-2"><span class="skill-tag">VS Code</span><span class="skill-tag">Git</span><span class="skill-tag">GitHub</span></div>
+          </article>
+          <article class="rounded-xl border border-slate-800 bg-slate-900/60 p-6 transition-all hover:border-indigo-500/50">
+            <div class="mb-4 text-2xl text-indigo-400"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+            <h3 class="mb-3 text-lg font-semibold text-white">CS Concepts</h3>
+            <div class="flex flex-wrap gap-2"><span class="skill-tag">Data Structures</span><span class="skill-tag">Algorithms</span><span class="skill-tag">Pointers</span><span class="skill-tag">File I/O</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="border-t border-slate-800/50 bg-slate-900/30 py-20">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <h2 class="section-title mb-12 flex items-center gap-3 text-3xl font-bold"><i class="fa-solid fa-graduation-cap text-2xl text-indigo-400" aria-hidden="true"></i>Education</h2>
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+          <article class="rounded-xl border border-slate-800 bg-slate-900 p-6">
+            <span class="mb-3 block text-sm font-medium text-indigo-400">2025–2029</span>
+            <h3 class="mb-2 text-xl font-semibold text-white">Bachelor of Technology — Computer Science</h3>
+            <p class="text-slate-400">Jawaharlal College of Engineering and Technology, Palakkad</p>
+          </article>
+          <article class="rounded-xl border border-slate-800 bg-slate-900 p-6">
+            <span class="mb-3 block text-sm font-medium text-indigo-400">Science</span>
+            <h3 class="mb-2 text-xl font-semibold text-white">Class XII</h3>
+            <p class="text-slate-400">PM SHRI Kendriya Vidyalaya MG Railway Colony, Bangalore</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="border-t border-slate-800/50 bg-slate-900/30 py-20">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <div class="mb-12 flex flex-col justify-between md:flex-row md:items-center">
+          <h2 class="section-title mb-4 flex items-center gap-3 text-3xl font-bold md:mb-0"><i class="fa-solid fa-diagram-project text-2xl text-indigo-400" aria-hidden="true"></i>Featured Projects</h2>
+          <div id="project-filters" class="flex flex-wrap gap-2" aria-label="Filter projects">
+            <button type="button" data-filter="all" aria-pressed="true" class="filter-btn rounded-lg bg-indigo-600 px-4 py-1.5 text-sm font-medium text-white transition-all">All</button>
+            <button type="button" data-filter="fullstack" aria-pressed="false" class="filter-btn rounded-lg bg-slate-800 px-4 py-1.5 text-sm font-medium text-slate-300 transition-all hover:bg-slate-700">Full Stack</button>
+            <button type="button" data-filter="python" aria-pressed="false" class="filter-btn rounded-lg bg-slate-800 px-4 py-1.5 text-sm font-medium text-slate-300 transition-all hover:bg-slate-700">Python / CLI</button>
+          </div>
+        </div>
+        <div id="projects-grid" class="grid grid-cols-1 gap-8 md:grid-cols-2">
+          <article class="project-card group flex flex-col justify-between overflow-hidden rounded-2xl border border-slate-800 bg-slate-900 transition-all hover:border-slate-700" data-category="fullstack">
+            <div class="p-6">
+              <div class="mb-4 flex items-start justify-between gap-3">
+                <h3 class="text-xl font-bold text-white transition-colors group-hover:text-indigo-400">Concert Ticket Booking System</h3>
+                <span class="shrink-0 rounded-full border border-indigo-500/20 bg-indigo-500/10 px-2.5 py-1 text-xs font-semibold text-indigo-400">Full Stack</span>
+              </div>
+              <p class="mb-6 text-sm text-slate-400">Multi-venue concert ticket booking engine designed with Python, Flask, and SQLite3, featuring dynamic pricing tiers, venue seat tracking, and instant ticket processing.</p>
+              <div class="mb-6 flex flex-wrap gap-2">
+                <span class="tech-tag">Python</span><span class="tech-tag">Flask</span><span class="tech-tag">SQLite3</span><span class="tech-tag">Tailwind CSS</span>
+              </div>
+            </div>
+            <div class="flex items-center justify-between border-t border-slate-800/80 bg-slate-900/80 px-6 py-4">
+              <a href="https://github.com/abhijithmurali2006-svg/concert-ticket-booking-system" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-sm font-medium text-slate-300 hover:text-white"><i class="fa-brands fa-github" aria-hidden="true"></i>Repository</a>
+              <button type="button" data-open-modal="concert-modal" class="flex items-center gap-1 text-sm font-medium text-indigo-400 hover:text-indigo-300">Details<i class="fa-solid fa-arrow-right text-xs" aria-hidden="true"></i></button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="border-t border-slate-800/50 py-20">
+      <div class="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
+        <h2 class="section-title mb-4 text-3xl font-bold text-white">Let's Connect</h2>
+        <p class="mx-auto mb-8 max-w-lg text-slate-400">Want to talk about a project, tech, or an opportunity? Reach out through any of these channels.</p>
+        <div class="flex flex-col items-center justify-center gap-4 sm:flex-row">
+          <a href="mailto:Abhijith.murali.2k6@gmail.com" class="flex w-full items-center justify-center gap-2 rounded-lg bg-indigo-600 px-6 py-3 font-medium text-white shadow-lg transition-all hover:bg-indigo-700 sm:w-auto"><i class="fa-solid fa-envelope" aria-hidden="true"></i>Send Email</a>
+          <a href="tel:+919686477963" class="flex w-full items-center justify-center gap-2 rounded-lg border border-slate-700 px-6 py-3 font-medium text-slate-300 transition-all hover:border-slate-500 sm:w-auto"><i class="fa-solid fa-phone" aria-hidden="true"></i>+91 9686477963</a>
+          <a href="https://linkedin.com/in/abhijith-murali-44a24238a" target="_blank" rel="noopener noreferrer" class="flex w-full items-center justify-center gap-2 rounded-lg border border-slate-700 px-6 py-3 font-medium text-slate-300 transition-all hover:border-slate-500 sm:w-auto"><i class="fa-brands fa-linkedin" aria-hidden="true"></i>LinkedIn Profile</a>
+          <a href="https://github.com/abhijithmurali2006-svg" target="_blank" rel="noopener noreferrer" class="flex w-full items-center justify-center gap-2 rounded-lg border border-slate-700 px-6 py-3 font-medium text-slate-300 transition-all hover:border-slate-500 sm:w-auto"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub Profile</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="concert-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/70 p-4 backdrop-blur-sm" role="dialog" aria-modal="true" aria-labelledby="concert-modal-title">
+    <div class="relative max-h-[90vh] w-full max-w-2xl overflow-y-auto rounded-2xl border border-slate-800 bg-slate-900 p-6 shadow-2xl sm:p-8">
+      <button type="button" data-close-modal aria-label="Close project details" class="absolute right-4 top-4 p-2 text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-xl" aria-hidden="true"></i></button>
+      <span class="rounded-full border border-indigo-500/30 bg-indigo-500/10 px-3 py-1 text-xs font-semibold text-indigo-400">Web Application</span>
+      <h2 id="concert-modal-title" class="mb-2 mt-3 text-2xl font-bold text-white">Concert Ticket Booking System</h2>
+      <p class="mb-6 text-sm leading-relaxed text-slate-300">A full-stack web application designed for processing live concert ticket reservations across multiple venues with localized seat allocations and real-time transaction validations.</p>
+      <div class="mb-6 space-y-4 text-sm text-slate-300">
+        <h3 class="text-base font-semibold text-white">Key Technical Capabilities</h3>
+        <ul class="list-inside list-disc space-y-2 text-slate-400">
+          <li><strong>Backend Engine:</strong> Built lightweight REST endpoints using Python and Flask to manage inventory across venues.</li>
+          <li><strong>Database Architecture:</strong> Engineered relational schemas in SQLite3 to handle persistent customer booking details and seat availability.</li>
+          <li><strong>Dynamic Pricing Engine:</strong> Implemented seating tier calculations (Floor, Lower, Upper tier pricing).</li>
+          <li><strong>Conflict Resolution:</strong> Integrated seat double-booking prevention mechanisms via database constraints and query handling.</li>
+        </ul>
+      </div>
+      <div class="flex flex-col items-start justify-between gap-4 border-t border-slate-800 pt-4 sm:flex-row sm:items-center">
+        <div class="flex flex-wrap items-center gap-2">
+          <span class="text-xs text-slate-400">Stack:</span><span class="tech-tag">Python</span><span class="tech-tag">Flask</span><span class="tech-tag">SQLite3</span>
+        </div>
+        <a href="https://github.com/abhijithmurali2006-svg/concert-ticket-booking-system" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-lg bg-indigo-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-indigo-700"><i class="fa-brands fa-github" aria-hidden="true"></i>View Source</a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="border-t border-slate-800/80 bg-slate-950 py-8 text-center text-sm text-slate-500">
+    <div class="mx-auto max-w-6xl px-4"><p>© <span id="year"></span> Abhijith Murali. Built with HTML, Tailwind CSS &amp; JavaScript.</p></div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
